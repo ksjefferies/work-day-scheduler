@@ -6,7 +6,6 @@ body {
   line-height: 1;
 }
 
-
 textarea {
   background: transparent;
   border: none;
@@ -40,10 +39,7 @@ textarea {
   white-space: pre-wrap;
   height: 50px;
   border: 1px solid black;
-
-   /* display: flex; */
   align-items: center;
-  /* text-align: center; */
   background-color: #06aed5;  
 }
 

@@ -79,15 +79,5 @@ function handleFormSubmit(event) {
     // Prevent the default behavior
     event.preventDefault();
 }
-
-$('.container').children().each((i, e) => {
-    var timeNow = moment().format('H');
-  if ((i+9) < timeNow){
-    $(e).css("background-color", "rgb(240,128,128")
-  } else if ((i+9) > timeNow) {
-    $(e).css("background-color", "rgb(0,128,128")
-  }
-})
-
 $('.container').children().find('#textarea').each((i, e) => $(e).val(workDay[i].description))
 //    textContent = $(this).siblings(".text").val("");
