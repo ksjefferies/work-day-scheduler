@@ -60,7 +60,7 @@ textarea {
 }
 
 .future {
-  background-color: #77dd77;
+  background-color: lightgreen;
   color: white;
 }
 
@@ -68,7 +68,7 @@ textarea {
   border-left: 1px solid black;
   /* border-top-right-radius: 15px; */
   /* border-bottom-right-radius: 15px; */
-  background-color: lightslategray;
+  background-color: #c5d9ed;
   margin-top: -4px;
   padding: 8px;
   color: black;
