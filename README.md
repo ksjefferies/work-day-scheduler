@@ -14,16 +14,15 @@ Create a simple calendar application that allows a user to save events for busin
 - When user reloads the page, the up-to-date data remains
 - When user edits previous data, the new data is pushed to local and html storage
 ```
-
 -----
 
-## Final screenshots of initial and results page
+## Final screenshots of initial, details entered, and details edited page
 
-![Screenshot of initial Day Planner start page](./assets/images/coding-quiz.png)
+![Screenshot of initial Day Planner start page](./assets/images/initial-page.jpeg)
 
-![Screenshot of Day Planner](./assets/images/quiz-question.png)
+![Screenshot of initial appt details entered](./assets/images/appt-details-entered.jpeg)
 
-![Screenshot of ](./assets/images/high-score.png)
+![Screenshot of appt details edited ](./assets/images/appt-details-edited.jpeg)
 
 -----
 ## Links for Github Repository and final public page

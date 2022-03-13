@@ -16,7 +16,7 @@ $('.container').on('click', '.saveBtn', function () {
     buttonIndex = $(this).index('.saveBtn')
 
     var textContent = $(this).siblings('.text').val();
-    workDay[buttonIndex].description = textContent;
+    workDay[buttonIndex] = textContent;
 
     pushLocal()
 })
@@ -31,63 +31,21 @@ function pushLocal() {
 function getLocal() {
     var pullLocal = localStorage.getItem("appointment");
     if (pullLocal === null) {
-        pullLocal = [
-            {
-                description: '',
-                answer: '9',
-            },
-            {
-                description: '',
-                answer: '10',
-            },
-            {
-                description: '',
-                answer: '11',
-            },
-            {
-                description: '',
-                answer: '12',
-            },
-            {
-                description: '',
-                answer: '1',
-            },
-            {
-                description: '',
-                answer: '2',
-            },
-            {
-                description: '',
-                answer: '3',
-            },
-            {
-                description: '',
-                answer: '4',
-            },
-            {
-                description: '',
-                answer: '5',
-            },
-        ];
+        pullLocal = Array(9).fill('');
     } else {
         pullLocal = JSON.parse(pullLocal)
     }
     return pullLocal
 }
 
-function handleFormSubmit(event) {
-    // Prevent the default behavior
-    event.preventDefault();
-}
-
+// Time-block attributes
 $('.container').children().each((i, e) => {
     var timeNow = moment().format('H');
-  if ((i+9) < timeNow){
-    $(e).css("background-color", "rgb(240,128,128")
-  } else if ((i+9) > timeNow) {
-    $(e).css("background-color", "rgb(0,128,128")
-  }
+    if ((i + 9) < timeNow) {
+        $(e).css("background-color", "#f98e8e")
+    } else if ((i + 9) > timeNow) {
+        $(e).css("background-color", "#85b3ed")
+    }
 })
 
-$('.container').children().find('#textarea').each((i, e) => $(e).val(workDay[i].description))
-//    textContent = $(this).siblings(".text").val("");
+$('.container').children().find('#textarea').each((i, e) => $(e).val(workDay[i]))
