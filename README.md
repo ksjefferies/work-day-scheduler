@@ -5,7 +5,7 @@
 Create a simple calendar application that allows a user to save events for business hours of the day by modifying starter code. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
 
 ## Objectives
-```md
+```
 - User will open Day planner by accessing URL / link
 - Current Date and Time is displayed at top of page, by way of Moment.
 - Scrolling down, there are color coded time-blocks (Past, Present, and Future)
