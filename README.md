@@ -37,9 +37,9 @@ Create a simple calendar application that allows a user to save events for busin
 - [Bootstrap Grid System](https://www.w3schools.com/bootstrap/bootstrap_grid_system.asp)
 
 I worked with the following people:
-- Daniel Norred 
-- Eugene
-- Dev Wolf
+- [Daniel Norred](https://github.com/MinisculeGirraffe) 
+- [Eugene](https://github.com/eugene125)
+- [Devin Wolf](https://github.com/wulfsounds)
 
 ## License
 This code is licensed under the MIT License
