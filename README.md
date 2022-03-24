@@ -41,5 +41,12 @@ I worked with the following people:
 - [Eugene](https://github.com/eugene125)
 - [Devin Wolf](https://github.com/wulfsounds)
 
+## Technologies Used:
+
+- Javascript
+- jQuery
+- HTML
+- CSS
+
 ## License
 This code is licensed under the MIT License
