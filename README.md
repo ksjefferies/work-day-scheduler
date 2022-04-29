@@ -31,22 +31,5 @@ Create a simple calendar application that allows a user to save events for busin
 
 - [Day Planner final page](https://ksjefferies.github.io/work-day-scheduler/)
 
-## Contributions and sources:
-
-- [Moment Formatting](https://momentjscom.readthedocs.io/en/latest/moment/04-displaying/01-format/)
-- [Bootstrap Grid System](https://www.w3schools.com/bootstrap/bootstrap_grid_system.asp)
-
-I worked with the following people:
-- [Daniel Norred](https://github.com/MinisculeGirraffe) 
-- [Eugene](https://github.com/eugene125)
-- [Devin Wolf](https://github.com/wulfsounds)
-
-## Technologies Used:
-
-- Javascript
-- jQuery
-- HTML
-- CSS
-
 ## License
 This code is licensed under the MIT License
