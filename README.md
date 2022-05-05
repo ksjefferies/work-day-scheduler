@@ -1,22 +1,33 @@
 # Workday Scheduler
 
-## Task
+-----
+## Table of Content
 
-Create a simple calendar application that allows a user to save events for business hours of the day by modifying starter code. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
+- [Description](#description)
+- [Objectives](#objectives)
+- [Images](#images)
+- [Deployed URL](#deployed-url)
+- [GitHub Repository](#github-repository)
+- [Author](#author)  
+- [Technologies Used](#technologies-used) 
+- [License](#license)
+
+## Description
+
+A simple calendar application that allows a user to save events for business hours of the day by modifying starter code. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
 
 ## Objectives
 ```
 - User will open Day planner by accessing URL / link
 - Current Date and Time is displayed at top of page, by way of Moment.
 - Scrolling down, there are color coded time-blocks (Past, Present, and Future)
-- When user clicks on a time slot, they are able to enter / edit the event
-- When user clicks the save button, the data is stored both within HTML and local storage
-- When user reloads the page, the up-to-date data remains
-- When user edits previous data, the new data is pushed to local and html storage
+- User clicks on a time slot, they are able to enter / edit the event
+- User clicks the save button, the data is stored both within HTML and local storage
+- User reloads the page, the up-to-date data remains
+- User edits previous data, the new data is pushed to local and html storage
 ```
 -----
-
-## Final screenshots of initial, details entered, and details edited page
+## Images
 
 ![Screenshot of initial Day Planner start page](./assets/images/initial-page.jpeg)
 
@@ -24,12 +35,26 @@ Create a simple calendar application that allows a user to save events for busin
 
 ![Screenshot of appt details edited ](./assets/images/appt-details-edited.jpeg)
 
------
-## Links for Github Repository and final public page
+## Deployed URL
+
+- [Day Planner URL](https://ksjefferies.github.io/work-day-scheduler/)
+
+## Github Repository
 
 - [Github Repository for Day Planner](https://github.com/ksjefferies/work-day-scheduler)
 
-- [Day Planner final page](https://ksjefferies.github.io/work-day-scheduler/)
+## Author:
 
+- [Kelly Jefferies](https://github.com/ksjefferies)
+
+## Technologies Used:
+
+![html](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![css3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![javascript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E) 
+![jQuery](https://img.shields.io/badge/-jQuery-green)
+
+----
 ## License
-This code is licensed under the MIT License
+
+[![License](https://img.shields.io/badge/License-MIT%20License-Green)](http://choosealicense.com/licenses/mit/)
